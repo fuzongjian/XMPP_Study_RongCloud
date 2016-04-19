@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  XMPP_Study_RongCloud
+//
+//  Created by 陈舒澳 on 16/4/19.
+//  Copyright © 2016年 speeda. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <RongIMKit/RongIMKit.h>
+
+#import "AFNService.h"
+
+#import "Path.h"
+#import "UserInfo.h"
+#import "DeviceInfo.h"
+
+
+
+
+#endif /* PrefixHeader_pch */

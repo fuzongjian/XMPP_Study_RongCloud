@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04665167CBDA9EDB19834DF3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7410E3D5BCA4AC35D57972 /* libPods.a */; };
+		504014271CC5CCAA00F438E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 504014261CC5CCAA00F438E5 /* main.m */; };
+		5040142A1CC5CCAA00F438E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 504014291CC5CCAA00F438E5 /* AppDelegate.m */; };
+		504014301CC5CCAA00F438E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5040142E1CC5CCAA00F438E5 /* Main.storyboard */; };
+		504014321CC5CCAA00F438E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504014311CC5CCAA00F438E5 /* Assets.xcassets */; };
+		504014351CC5CCAA00F438E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504014331CC5CCAA00F438E5 /* LaunchScreen.storyboard */; };
+		504014401CC5CCAA00F438E5 /* XMPP_Study_RongCloudTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040143F1CC5CCAA00F438E5 /* XMPP_Study_RongCloudTests.m */; };
+		5040144B1CC5CCAA00F438E5 /* XMPP_Study_RongCloudUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040144A1CC5CCAA00F438E5 /* XMPP_Study_RongCloudUITests.m */; };
+		504014601CC5D60F00F438E5 /* AFNService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040145F1CC5D60F00F438E5 /* AFNService.m */; };
+		5040146B1CC5DD6F00F438E5 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 504014691CC5DD6F00F438E5 /* HomeController.m */; };
+		5040146E1CC5DE0F00F438E5 /* SingleChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040146D1CC5DE0F00F438E5 /* SingleChatController.m */; };
+		504014791CC5FE3100F438E5 /* ChatListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 504014781CC5FE3100F438E5 /* ChatListController.m */; };
+		5040147C1CC5FF8B00F438E5 /* BaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040147B1CC5FF8B00F438E5 /* BaseNavController.m */; };
+		50AD9D6E1CC60B81000AA8DB /* CustomConversationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AD9D6D1CC60B81000AA8DB /* CustomConversationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5040143C1CC5CCAA00F438E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5040141A1CC5CCAA00F438E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 504014211CC5CCAA00F438E5;
+			remoteInfo = XMPP_Study_RongCloud;
+		};
+		504014471CC5CCAA00F438E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5040141A1CC5CCAA00F438E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 504014211CC5CCAA00F438E5;
+			remoteInfo = XMPP_Study_RongCloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C7410E3D5BCA4AC35D57972 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		504014221CC5CCAA00F438E5 /* XMPP_Study_RongCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMPP_Study_RongCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		504014261CC5CCAA00F438E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		504014281CC5CCAA00F438E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		504014291CC5CCAA00F438E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5040142F1CC5CCAA00F438E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		504014311CC5CCAA00F438E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		504014341CC5CCAA00F438E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		504014361CC5CCAA00F438E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5040143B1CC5CCAA00F438E5 /* XMPP_Study_RongCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMPP_Study_RongCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5040143F1CC5CCAA00F438E5 /* XMPP_Study_RongCloudTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPP_Study_RongCloudTests.m; sourceTree = "<group>"; };
+		504014411CC5CCAA00F438E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		504014461CC5CCAA00F438E5 /* XMPP_Study_RongCloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMPP_Study_RongCloudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5040144A1CC5CCAA00F438E5 /* XMPP_Study_RongCloudUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPP_Study_RongCloudUITests.m; sourceTree = "<group>"; };
+		5040144C1CC5CCAA00F438E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		504014581CC5CF9700F438E5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5040145E1CC5D60F00F438E5 /* AFNService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNService.h; sourceTree = "<group>"; };
+		5040145F1CC5D60F00F438E5 /* AFNService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNService.m; sourceTree = "<group>"; };
+		504014611CC5D7F600F438E5 /* Path.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Path.h; sourceTree = "<group>"; };
+		504014621CC5D83500F438E5 /* UserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		504014631CC5D88A00F438E5 /* DeviceInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
+		504014681CC5DD6F00F438E5 /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		504014691CC5DD6F00F438E5 /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		5040146C1CC5DE0F00F438E5 /* SingleChatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleChatController.h; sourceTree = "<group>"; };
+		5040146D1CC5DE0F00F438E5 /* SingleChatController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleChatController.m; sourceTree = "<group>"; };
+		504014771CC5FE3100F438E5 /* ChatListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatListController.h; sourceTree = "<group>"; };
+		504014781CC5FE3100F438E5 /* ChatListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatListController.m; sourceTree = "<group>"; };
+		5040147A1CC5FF8B00F438E5 /* BaseNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavController.h; sourceTree = "<group>"; };
+		5040147B1CC5FF8B00F438E5 /* BaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavController.m; sourceTree = "<group>"; };
+		50AD9D6C1CC60B81000AA8DB /* CustomConversationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomConversationController.h; sourceTree = "<group>"; };
+		50AD9D6D1CC60B81000AA8DB /* CustomConversationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomConversationController.m; sourceTree = "<group>"; };
+		5836ABF437CCE49CD70E6EC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		837AB7B8E494397FF969AF6C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5040141F1CC5CCAA00F438E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04665167CBDA9EDB19834DF3 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504014381CC5CCAA00F438E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504014431CC5CCAA00F438E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		504014191CC5CCAA00F438E5 = {
+			isa = PBXGroup;
+			children = (
+				504014241CC5CCAA00F438E5 /* XMPP_Study_RongCloud */,
+				5040143E1CC5CCAA00F438E5 /* XMPP_Study_RongCloudTests */,
+				504014491CC5CCAA00F438E5 /* XMPP_Study_RongCloudUITests */,
+				504014231CC5CCAA00F438E5 /* Products */,
+				93DB9BEADBF416F6075CF615 /* Pods */,
+				8D6C4832D7C93BA77FD8CFC8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		504014231CC5CCAA00F438E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				504014221CC5CCAA00F438E5 /* XMPP_Study_RongCloud.app */,
+				5040143B1CC5CCAA00F438E5 /* XMPP_Study_RongCloudTests.xctest */,
+				504014461CC5CCAA00F438E5 /* XMPP_Study_RongCloudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		504014241CC5CCAA00F438E5 /* XMPP_Study_RongCloud */ = {
+			isa = PBXGroup;
+			children = (
+				504014581CC5CF9700F438E5 /* PrefixHeader.pch */,
+				504014611CC5D7F600F438E5 /* Path.h */,
+				504014621CC5D83500F438E5 /* UserInfo.h */,
+				504014631CC5D88A00F438E5 /* DeviceInfo.h */,
+				504014281CC5CCAA00F438E5 /* AppDelegate.h */,
+				504014291CC5CCAA00F438E5 /* AppDelegate.m */,
+				504014591CC5D5A800F438E5 /* Common */,
+				5040145A1CC5D5A800F438E5 /* Services */,
+				5040145B1CC5D5A800F438E5 /* Sources */,
+				5040145C1CC5D5A800F438E5 /* ViewControllers */,
+				5040145D1CC5D5A800F438E5 /* Views */,
+				5040142E1CC5CCAA00F438E5 /* Main.storyboard */,
+				504014311CC5CCAA00F438E5 /* Assets.xcassets */,
+				504014331CC5CCAA00F438E5 /* LaunchScreen.storyboard */,
+				504014361CC5CCAA00F438E5 /* Info.plist */,
+				504014251CC5CCAA00F438E5 /* Supporting Files */,
+			);
+			path = XMPP_Study_RongCloud;
+			sourceTree = "<group>";
+		};
+		504014251CC5CCAA00F438E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				504014261CC5CCAA00F438E5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5040143E1CC5CCAA00F438E5 /* XMPP_Study_RongCloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				5040143F1CC5CCAA00F438E5 /* XMPP_Study_RongCloudTests.m */,
+				504014411CC5CCAA00F438E5 /* Info.plist */,
+			);
+			path = XMPP_Study_RongCloudTests;
+			sourceTree = "<group>";
+		};
+		504014491CC5CCAA00F438E5 /* XMPP_Study_RongCloudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5040144A1CC5CCAA00F438E5 /* XMPP_Study_RongCloudUITests.m */,
+				5040144C1CC5CCAA00F438E5 /* Info.plist */,
+			);
+			path = XMPP_Study_RongCloudUITests;
+			sourceTree = "<group>";
+		};
+		504014591CC5D5A800F438E5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5040145A1CC5D5A800F438E5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5040145E1CC5D60F00F438E5 /* AFNService.h */,
+				5040145F1CC5D60F00F438E5 /* AFNService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5040145B1CC5D5A800F438E5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5040145C1CC5D5A800F438E5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				504014671CC5DD6F00F438E5 /* HomeController */,
+				504014761CC5FE0300F438E5 /* ChatList */,
+				5040146A1CC5DD6F00F438E5 /* SingleChat */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5040145D1CC5D5A800F438E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		504014671CC5DD6F00F438E5 /* HomeController */ = {
+			isa = PBXGroup;
+			children = (
+				504014681CC5DD6F00F438E5 /* HomeController.h */,
+				504014691CC5DD6F00F438E5 /* HomeController.m */,
+				5040147A1CC5FF8B00F438E5 /* BaseNavController.h */,
+				5040147B1CC5FF8B00F438E5 /* BaseNavController.m */,
+			);
+			path = HomeController;
+			sourceTree = "<group>";
+		};
+		5040146A1CC5DD6F00F438E5 /* SingleChat */ = {
+			isa = PBXGroup;
+			children = (
+				5040146C1CC5DE0F00F438E5 /* SingleChatController.h */,
+				5040146D1CC5DE0F00F438E5 /* SingleChatController.m */,
+			);
+			path = SingleChat;
+			sourceTree = "<group>";
+		};
+		504014761CC5FE0300F438E5 /* ChatList */ = {
+			isa = PBXGroup;
+			children = (
+				504014771CC5FE3100F438E5 /* ChatListController.h */,
+				504014781CC5FE3100F438E5 /* ChatListController.m */,
+				50AD9D6C1CC60B81000AA8DB /* CustomConversationController.h */,
+				50AD9D6D1CC60B81000AA8DB /* CustomConversationController.m */,
+			);
+			path = ChatList;
+			sourceTree = "<group>";
+		};
+		8D6C4832D7C93BA77FD8CFC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C7410E3D5BCA4AC35D57972 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93DB9BEADBF416F6075CF615 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5836ABF437CCE49CD70E6EC7 /* Pods.debug.xcconfig */,
+				837AB7B8E494397FF969AF6C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		504014211CC5CCAA00F438E5 /* XMPP_Study_RongCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5040144F1CC5CCAA00F438E5 /* Build configuration list for PBXNativeTarget "XMPP_Study_RongCloud" */;
+			buildPhases = (
+				1D54D76F09EB87094D94A0B0 /* Check Pods Manifest.lock */,
+				5040141E1CC5CCAA00F438E5 /* Sources */,
+				5040141F1CC5CCAA00F438E5 /* Frameworks */,
+				504014201CC5CCAA00F438E5 /* Resources */,
+				93B54AC2495BF93CEBA1EF6A /* Embed Pods Frameworks */,
+				27D47E00BEEE33963490FA8F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMPP_Study_RongCloud;
+			productName = XMPP_Study_RongCloud;
+			productReference = 504014221CC5CCAA00F438E5 /* XMPP_Study_RongCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5040143A1CC5CCAA00F438E5 /* XMPP_Study_RongCloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504014521CC5CCAA00F438E5 /* Build configuration list for PBXNativeTarget "XMPP_Study_RongCloudTests" */;
+			buildPhases = (
+				504014371CC5CCAA00F438E5 /* Sources */,
+				504014381CC5CCAA00F438E5 /* Frameworks */,
+				504014391CC5CCAA00F438E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5040143D1CC5CCAA00F438E5 /* PBXTargetDependency */,
+			);
+			name = XMPP_Study_RongCloudTests;
+			productName = XMPP_Study_RongCloudTests;
+			productReference = 5040143B1CC5CCAA00F438E5 /* XMPP_Study_RongCloudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		504014451CC5CCAA00F438E5 /* XMPP_Study_RongCloudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504014551CC5CCAA00F438E5 /* Build configuration list for PBXNativeTarget "XMPP_Study_RongCloudUITests" */;
+			buildPhases = (
+				504014421CC5CCAA00F438E5 /* Sources */,
+				504014431CC5CCAA00F438E5 /* Frameworks */,
+				504014441CC5CCAA00F438E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				504014481CC5CCAA00F438E5 /* PBXTargetDependency */,
+			);
+			name = XMPP_Study_RongCloudUITests;
+			productName = XMPP_Study_RongCloudUITests;
+			productReference = 504014461CC5CCAA00F438E5 /* XMPP_Study_RongCloudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5040141A1CC5CCAA00F438E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = speeda;
+				TargetAttributes = {
+					504014211CC5CCAA00F438E5 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					5040143A1CC5CCAA00F438E5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 504014211CC5CCAA00F438E5;
+					};
+					504014451CC5CCAA00F438E5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 504014211CC5CCAA00F438E5;
+					};
+				};
+			};
+			buildConfigurationList = 5040141D1CC5CCAA00F438E5 /* Build configuration list for PBXProject "XMPP_Study_RongCloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 504014191CC5CCAA00F438E5;
+			productRefGroup = 504014231CC5CCAA00F438E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				504014211CC5CCAA00F438E5 /* XMPP_Study_RongCloud */,
+				5040143A1CC5CCAA00F438E5 /* XMPP_Study_RongCloudTests */,
+				504014451CC5CCAA00F438E5 /* XMPP_Study_RongCloudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		504014201CC5CCAA00F438E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504014351CC5CCAA00F438E5 /* LaunchScreen.storyboard in Resources */,
+				504014321CC5CCAA00F438E5 /* Assets.xcassets in Resources */,
+				504014301CC5CCAA00F438E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504014391CC5CCAA00F438E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504014441CC5CCAA00F438E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D54D76F09EB87094D94A0B0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		27D47E00BEEE33963490FA8F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93B54AC2495BF93CEBA1EF6A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5040141E1CC5CCAA00F438E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504014601CC5D60F00F438E5 /* AFNService.m in Sources */,
+				5040142A1CC5CCAA00F438E5 /* AppDelegate.m in Sources */,
+				5040146B1CC5DD6F00F438E5 /* HomeController.m in Sources */,
+				50AD9D6E1CC60B81000AA8DB /* CustomConversationController.m in Sources */,
+				5040146E1CC5DE0F00F438E5 /* SingleChatController.m in Sources */,
+				5040147C1CC5FF8B00F438E5 /* BaseNavController.m in Sources */,
+				504014271CC5CCAA00F438E5 /* main.m in Sources */,
+				504014791CC5FE3100F438E5 /* ChatListController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504014371CC5CCAA00F438E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504014401CC5CCAA00F438E5 /* XMPP_Study_RongCloudTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504014421CC5CCAA00F438E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5040144B1CC5CCAA00F438E5 /* XMPP_Study_RongCloudUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5040143D1CC5CCAA00F438E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 504014211CC5CCAA00F438E5 /* XMPP_Study_RongCloud */;
+			targetProxy = 5040143C1CC5CCAA00F438E5 /* PBXContainerItemProxy */;
+		};
+		504014481CC5CCAA00F438E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 504014211CC5CCAA00F438E5 /* XMPP_Study_RongCloud */;
+			targetProxy = 504014471CC5CCAA00F438E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5040142E1CC5CCAA00F438E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5040142F1CC5CCAA00F438E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		504014331CC5CCAA00F438E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				504014341CC5CCAA00F438E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5040144D1CC5CCAA00F438E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XMPP_Study_Rongcloud/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5040144E1CC5CCAA00F438E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XMPP_Study_Rongcloud/PrefixHeader.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		504014501CC5CCAA00F438E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5836ABF437CCE49CD70E6EC7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XMPP_Study_RongCloud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.speeda.XMPP-Study-RongCloud";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		504014511CC5CCAA00F438E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 837AB7B8E494397FF969AF6C /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XMPP_Study_RongCloud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.speeda.XMPP-Study-RongCloud";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		504014531CC5CCAA00F438E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XMPP_Study_RongCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.speeda.XMPP-Study-RongCloudTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMPP_Study_RongCloud.app/XMPP_Study_RongCloud";
+			};
+			name = Debug;
+		};
+		504014541CC5CCAA00F438E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XMPP_Study_RongCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.speeda.XMPP-Study-RongCloudTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMPP_Study_RongCloud.app/XMPP_Study_RongCloud";
+			};
+			name = Release;
+		};
+		504014561CC5CCAA00F438E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XMPP_Study_RongCloudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.speeda.XMPP-Study-RongCloudUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XMPP_Study_RongCloud;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		504014571CC5CCAA00F438E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XMPP_Study_RongCloudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.speeda.XMPP-Study-RongCloudUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XMPP_Study_RongCloud;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5040141D1CC5CCAA00F438E5 /* Build configuration list for PBXProject "XMPP_Study_RongCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5040144D1CC5CCAA00F438E5 /* Debug */,
+				5040144E1CC5CCAA00F438E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5040144F1CC5CCAA00F438E5 /* Build configuration list for PBXNativeTarget "XMPP_Study_RongCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504014501CC5CCAA00F438E5 /* Debug */,
+				504014511CC5CCAA00F438E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504014521CC5CCAA00F438E5 /* Build configuration list for PBXNativeTarget "XMPP_Study_RongCloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504014531CC5CCAA00F438E5 /* Debug */,
+				504014541CC5CCAA00F438E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504014551CC5CCAA00F438E5 /* Build configuration list for PBXNativeTarget "XMPP_Study_RongCloudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504014561CC5CCAA00F438E5 /* Debug */,
+				504014571CC5CCAA00F438E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5040141A1CC5CCAA00F438E5 /* Project object */;
+}
